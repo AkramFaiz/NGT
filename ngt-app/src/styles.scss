@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#191319+0,526b65+47,110e16+100 */
+background: #191319; /* Old browsers */
+background: -moz-linear-gradient(top,  #191319 0%, #526b65 47%, #110e16 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #191319 0%,#526b65 47%,#110e16 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #191319 0%,#526b65 47%,#110e16 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191319', endColorstr='#110e16',GradientType=0 ); /* IE6-9 */
+
+}

@@ -11,21 +11,30 @@ import {
   NgtSpotLightModule,
   NgtPointLightModule
 } from "@angular-three/core/lights";
+import { NgtPrimitiveModule} from "@angular-three/core/primitive";
 import { NgtMeshModule } from "@angular-three/core/meshes";
 import { NgtMeshStandardMaterialModule } from "@angular-three/core/materials";
 import { NgtBoxGeometryModule } from "@angular-three/core/geometries";
+
 import { CubeComponent } from './cube/cube.component';
+import { ShoeRoomComponent } from './shoe-room/shoe-room.component';
+import { ClothesRoomComponent } from './clothes-room/clothes-room.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShoeComponent,
-    CubeComponent
+    CubeComponent,
+    ShoeRoomComponent,
+    ClothesRoomComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgtCanvasModule,
+    NgtPrimitiveModule,
     NgtAmbientLightModule,
     NgtSpotLightModule,
     NgtPointLightModule,
